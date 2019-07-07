@@ -1,4 +1,4 @@
-# Easy backup
+# easy backup
 
 **Super simple backup tool**
 
@@ -94,7 +94,7 @@ No backup: .nobac
 
 Copyright (C) Walter A. Jablonowski 2018, MIT [License](LICENSE)
 
-This project is build upon PHP (license see [credits](credits.md)) and has no further dependecies.
+This project is build upon PHP (license see [credits](credits.md)) and has no further dependencies.
 
 
 [Privacy](https://walter-a-jablonowski.github.io/privacy.html) | [Legal](https://walter-a-jablonowski.github.io/imprint.html)
