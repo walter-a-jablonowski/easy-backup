@@ -1,0 +1,23 @@
+---
+
+Running: true  # keep running or stop backup
+
+Backup fld: "'../demo/backup/'"  # where 2 put backups in, including the
+
+Source flds:  # a list of base folders that should be included in backup
+
+  - "'../demo/source/'"  # you can also use PHP defines like MY_FOLDER . 'my_fld/'
+                         # or valid PHP that builds a string
+  
+# default is "nobac" for source folders, you need 2 specify rules, see readme
+
+General rules:  # always skip
+
+  Skip:  # use any part of /my/full/fld/fil.txt
+    - /.backup
+    - /.v-backup
+
+# Change what is used for rules in file/folder names
+
+Do backup: .bac
+No backup: .nobac

@@ -1,0 +1,1 @@
+Hardcopy common lib standalone use
