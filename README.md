@@ -20,14 +20,12 @@ See also config file below
 
 "Last rule counts"
 
-```
-         Files/folders using rules            |                  Result in backup
---------------------------------------------- | --------------------------------------------------
-/folder.bac/sub/sub1/myfile_1_1.txt           | myfile included because of '.bac'
-/folder.bac/sub/sub5.nobac/myfile_2_1.txt     | no include of myfile because last rule is '.nobac'
-/folder.bac/sub/sub1/myfile_1_2.nobac.txt     | also works for file names
-/folder.bac/sub/sub5.nobac/myfile_2_2.bac.txt | myfile included because last rule is '.bac'
-```
+|         Files/folders using rules             |                  Result in backup                  |
+| --------------------------------------------- | -------------------------------------------------- |
+| /folder.bac/sub/sub1/myfile_1_1.txt           | myfile included because of '.bac'                  |
+| /folder.bac/sub/sub5.nobac/myfile_2_1.txt     | no include of myfile because last rule is '.nobac' |
+| /folder.bac/sub/sub1/myfile_1_2.nobac.txt     | also works for file names                          |
+| /folder.bac/sub/sub5.nobac/myfile_2_2.bac.txt | myfile included because last rule is '.bac'        |
 
 You need 2 specify at leat one .bac in hierarchie for each source folder, cause default is "nobac". **You can change** ".bac" and ".nobac" in config, see below.
 
