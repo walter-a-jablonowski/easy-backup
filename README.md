@@ -48,7 +48,7 @@ You need 2 specify at leat one .bac in hierarchie for each source folder, cause 
    3. or `php run_backup.php "'/place/of/my/conf.yml'"`
    4. include the "'"
 
-3. You might want 2 call it using cronjobs or some scheduler
+3. You might want call it using cronjobs or some scheduler
 
 **Hint:** use PHP defines in conf arg like `run_backup.php?conf=BASE_FOLDER.'app-data/backup/conf.yml'`
 (of course you will have 2 define them first). This might look insecure, but this tool was made for
@@ -94,7 +94,7 @@ No backup: .nobac
 
 Copyright (C) Walter A. Jablonowski 2018, MIT [License](LICENSE)
 
-This library is build upon PHP (license see [credits](credits.md)) and has no further dependecies.
+This project is build upon PHP (license see [credits](credits.md)) and has no further dependecies.
 
 
 [Privacy](https://walter-a-jablonowski.github.io/privacy.html) | [Legal](https://walter-a-jablonowski.github.io/imprint.html)
