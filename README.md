@@ -20,12 +20,14 @@ See also config file below
 
 "Last rule counts"
 
+```
          Files/folders using rules            |                  Result in backup
 --------------------------------------------- | --------------------------------------------------
 /folder.bac/sub/sub1/myfile_1_1.txt           | myfile included because of '.bac'
 /folder.bac/sub/sub5.nobac/myfile_2_1.txt     | no include of myfile because last rule is '.nobac'
 /folder.bac/sub/sub1/myfile_1_2.nobac.txt     | also works for file names
 /folder.bac/sub/sub5.nobac/myfile_2_2.bac.txt | myfile included because last rule is '.bac'
+```
 
 You need 2 specify at leat one .bac in hierarchie for each source folder, cause default is "nobac". **You can change** ".bac" and ".nobac" in config, see below.
 
@@ -43,10 +45,10 @@ You need 2 specify at leat one .bac in hierarchie for each source folder, cause 
 8. Rename it, put it where you like, edit config.php
 9. Call like
 
-  * `.../run_backup.php` uses the config.yml if no args
-  * `.../run_backup.php?conf='/place/of/my/conf.yml'`
-  * or `php run_backup.php "'/place/of/my/conf.yml'"`
-  * include the "'"
+  - `.../run_backup.php` uses the config.yml if no args
+  - `.../run_backup.php?conf='/place/of/my/conf.yml'`
+  - or `php run_backup.php "'/place/of/my/conf.yml'"`
+  - include the "'"
 
 3. You might want 2 call it using cronjobs or some scheduler
 
