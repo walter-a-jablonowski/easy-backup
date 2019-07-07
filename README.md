@@ -43,10 +43,10 @@ You need 2 specify at leat one .bac in hierarchie for each source folder, cause 
 8. Rename it, put it where you like, edit config.php
 9. Call like
 
-  1. `.../run_backup.php` uses the config.yml if no args
-  2. `.../run_backup.php?conf='/place/of/my/conf.yml'`
-  3. or `php run_backup.php "'/place/of/my/conf.yml'"`
-  4. include the "'"
+   1. `.../run_backup.php` uses the config.yml if no args
+   2. `.../run_backup.php?conf='/place/of/my/conf.yml'`
+   3. or `php run_backup.php "'/place/of/my/conf.yml'"`
+   4. include the "'"
 
 3. You might want 2 call it using cronjobs or some scheduler
 
