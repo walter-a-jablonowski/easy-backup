@@ -9,7 +9,7 @@ Source flds:  # a list of base folders that should be included in backup
   - "'../demo/source/'"  # you can also use PHP defines like MY_FOLDER . 'my_fld/'
                          # or valid PHP that builds a string
   
-# default is "nobac" for source folders, you need 2 specify rules, see readme
+# default is "nobac" for source folders, you need at least one rule, see readme
 
 General rules:  # always skip
 

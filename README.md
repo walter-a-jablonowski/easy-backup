@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This tool makes **clever use** of rules, that are added 2 file and folder names. Specify what should be included in backup ***just where you are working***: in file system. **No need** for updating include / exclude lists in an application each time you changed something. So, you can't forget and it's **far more easy** ;-)
+This tool makes **clever use** of rules, that are added in file and folder names. Specify what should be included in backup ***just where you are working***: in file system. **No need** for updating include / exclude lists in an application each time you changed something. So, you can't forget and it's **far more easy** ;-)
 
 Easy backup currently is a "***quick hack***", because it's just a little tool that I did for peronal use. For me reading that code is no problem, so I keep it simple ... saves time for more important projects. The code of [Damn Small Engine](https://github.com/walter-a-jablonowski/damn-small-engine) is far more "official" and better readable, see there. You also might see some unusual things in this code. This is because I like trying unusual things in that kind of 'quick hack' tools.
 
@@ -27,7 +27,7 @@ See also config file below
 | /folder.bac/sub/sub1/myfile_1_2.nobac.txt     | also works for file names                          |
 | /folder.bac/sub/sub5.nobac/myfile_2_2.bac.txt | myfile included because last rule is '.bac'        |
 
-You need 2 specify at leat one .bac in hierarchie for each source folder, cause default is "nobac". **You can change** ".bac" and ".nobac" in config, see below.
+You need at leat one .bac in hierarchie for each source folder, cause default is "nobac". **You can change** ".bac" and ".nobac" in config, see below.
 
 
 ## Usage
@@ -58,7 +58,7 @@ PHP that builds a string.
 
 ## Config file
 
-See also file sample_backup_conf.yml
+See also file src/sample_backup_conf.yml
 
 **Provides more features:**
 
@@ -75,7 +75,7 @@ Source flds:  # a list of base folders that should be included in backup
   - "MY_FOLDER . 'my_fld/'"  # you can also use PHP defines
                              # must be valid PHP that builds a string
   
-# default is "nobac" for source folders, you need 2 specify rules, see readme
+# default is "nobac" for source folders, you need at least one rule, see readme
 
 General rules:  # always skip
 
