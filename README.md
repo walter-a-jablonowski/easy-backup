@@ -4,12 +4,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This tool makes **clever use** of rules, that are added in file and folder names. Specify what should be included in backup ***just where you are working***: in file system. **No need** for updating include / exclude lists in an application each time you changed something. So, you can't forget and it's **far more easy** ;-)
+This tool makes **clever use** of rules, that are added in file and folder names. Specify what should be included in backup just where you are working: in file system. No need for updating include / exclude lists in an application each time you changed something. So, you can't forget and it's far more easy ;-)
 
-Easy backup currently is a "***quick hack***", because it's just a little tool that I did for peronal use. For me reading that code is no problem, so I keep it simple ... saves time for more important projects. The code of [Damn Small Engine](https://github.com/walter-a-jablonowski/damn-small-engine) is far more "official" and better readable, see there. You also might see some unusual things in this code. This is because I like trying unusual things in that kind of 'quick hack' tools.
-
-This was tested using PHP 7.3.5, should run at least on 5.6 and above
-
+Easy backup currently is a "***quick hack***", because it's just a little tool that I did for personal use ... saves time for more important projects. You also might see some unusual things in this code. This is because I like trying new stuff in these kind of tools.
 
 > If you like visit my personal homepage: [walter-a-jablonowski.github.io](https://walter-a-jablonowski.github.io)
 
@@ -43,22 +40,22 @@ You need at leat one .bac in hierarchie for each source folder, cause default is
 8. Rename it, put it where you like, edit config.php
 9. Call like
 
-   1. `.../run_backup.php` uses the config.yml if no args
-   2. `.../run_backup.php?conf='/place/of/my/conf.yml'`
+   1. `[...]/run_backup.php` uses the config.yml if no args
+   2. `[...]/run_backup.php?conf='/place/of/my/conf.yml'`
    3. or `php run_backup.php "'/place/of/my/conf.yml'"`
    4. include the "'"
 
-3. You might want call it using cronjobs or some scheduler
+3. You might want 2 use cronjobs or some scheduler
 
-**Hint:** use PHP defines in conf arg like `run_backup.php?conf=BASE_FOLDER.'app-data/backup/conf.yml'`
-(of course you will have 2 define them first). This might look insecure, but this tool was made for
-internal use only. Run it on a secure machine, then it *is* secure. Conf arg must/can be (any) valid
+**Hint:** Use PHP defines in conf arg like `run_backup.php?conf=BASE_FOLDER.'app-data/backup/conf.yml'`
+(of course thers need definition first). This might look insecure, but this tool was made for
+internal use only. Run it on a secure machine, then it *is* secure. `conf` arg must/can be (any) valid
 PHP that builds a string.
 
 
 ## Config file
 
-See also file src/sample_backup_conf.yml
+See src/sample_backup_conf.yml
 
 **Provides more features:**
 
@@ -102,5 +99,5 @@ This project is build upon PHP (license see [credits](credits.md)) and has no fu
 
 ## Changelog
 
-* [x] **2019-06** - added readme, released code
-* [x] **2018** - development
+* [x] **2019-06** added readme, released code
+* [x] **2018** development
