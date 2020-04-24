@@ -4,9 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This tool makes **clever use** of rules, that are added in file and folder names. Specify what should be included in backup just where you are working: in file system. No need for updating include / exclude lists in an application each time you changed something. So, you can't forget and it's far more easy ;-)
-
-Easy backup currently is a "***quick hack***", because it's just a little tool that I did for personal use ... saves time for more important projects. You also might see some unusual things in this code. This is because I like trying new stuff in these kind of tools.
+This tool makes **clever use** of rules, that are added in file and folder names. Specify what should be included in backup just where you are working: in file system. No need for updating include / exclude lists in an application each time you changed something. You can't forget and it's easy ;-)
 
 > If you like visit my personal homepage: [walter-a-jablonowski.github.io](https://walter-a-jablonowski.github.io)
 
@@ -47,10 +45,11 @@ You need at leat one .bac in hierarchie for each source folder, cause default is
 
 3. You might want 2 use cronjobs or some scheduler
 
-**Hint:** Use PHP defines in conf arg like `run_backup.php?conf=BASE_FOLDER.'app-data/backup/conf.yml'`
-(of course thers need definition first). This might look insecure, but this tool was made for
-internal use only. Run it on a secure machine, then it *is* secure. `conf` arg must/can be (any) valid
-PHP that builds a string.
+`conf` arg must/can be (any) valid PHP that builds a string. Use PHP defines like
+`run_backup.php?conf=BASE_FOLDER.'app-data/backup/conf.yml'` (of course needs definition first).
+
+Use of eval might look insecure, but this tool was made for internal use only. Run it on a secure
+machine, then it *is* secure.
 
 
 ## Config file
