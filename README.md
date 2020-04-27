@@ -86,6 +86,12 @@ No backup: .nobac
 ```
 
 
+## Changelog
+
+* [x] **2019-06** - Added readme, released code
+* [x] **2018** - Development
+
+
 ## LICENSE
 
 Copyright (C) Walter A. Jablonowski 2018, MIT [License](LICENSE)
@@ -94,9 +100,3 @@ This project is build upon PHP (license see [credits](credits.md)) and has no fu
 
 
 [Privacy](https://walter-a-jablonowski.github.io/privacy.html) | [Legal](https://walter-a-jablonowski.github.io/imprint.html)
-
-
-## Changelog
-
-* [x] **2019-06** added readme, released code
-* [x] **2018** development
