@@ -1,5 +1,6 @@
 desktop.ini
-_old/
 vendor/
 composer.lock
-mngm/
+demo/backup/**
+!demo/backup/.gitkeep
+easy-backup.code-workspace

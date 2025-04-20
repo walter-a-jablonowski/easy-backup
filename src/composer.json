@@ -14,23 +14,16 @@
     }
   ],
 
-  "version": "0.8.0",
-
   "prefer-stable": true,
   "minimum-stability": "dev",
 
   "require": {
-    "php": ">=7.1.9",
-    "symfony/yaml": "4.3"
+    "php": ">=7.4",
+    "symfony/yaml": "5.4"
   },
 
   "autoload": {
-    "psr-4": {
-      "WAJ\\Lib\\BasicClasses\\Args\\": "lib/args/"
-    },
-    
     "files": [
-      "lib/args/args_func.php",
       "lib/fil.php",
       "lib/backup.php"
     ]
