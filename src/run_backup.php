@@ -4,10 +4,9 @@ use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
 
 require 'vendor/autoload.php';
-require 'config.php';
 
 
-$config = Yaml::parse( file_get_contents( BACKUP_CONF ));
+$config = Yaml::parse( file_get_contents('config.yml'));
 
 if( ! $config['running'] )  exit();
 

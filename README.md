@@ -25,14 +25,12 @@ You need at leat one .bac somewhere in hierarchie for each source folder. You ca
 
 1. `composer install`
 2. Run demo: see results in /demo
-3. Edit config.php and yml
+3. Edit config.yml
 
 
 ## Config file
 
-see also config.php
-
-**src/sample_backup_conf.yml**
+**src/config.yml**
 
 ```yaml
 running:    true               # stop backup
