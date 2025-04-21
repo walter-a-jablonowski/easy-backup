@@ -2,8 +2,6 @@
 
 **Super simple backup tool**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This tool makes **clever use** of rules, that are added in file and folder names. Specify what should be included in backup just where you are working: in file system. No need for updating include / exclude lists in an application each time you changed something.
 
 
